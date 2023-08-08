@@ -20,6 +20,11 @@ li {
     list-style: none;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 .main-item {
     float: left;
     color: white;
@@ -30,6 +35,11 @@ li {
 }
 
 .main-item:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.main-item a:hover {
     cursor: pointer;
     color: black;
 }
@@ -68,8 +78,7 @@ li {
     margin: 20px 0px 20px 0px;
 }
 
-li a {
-    text-decoration: none;
+.sub-list li a {
     color: black;
 }
 
